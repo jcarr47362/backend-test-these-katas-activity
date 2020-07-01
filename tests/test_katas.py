@@ -5,7 +5,7 @@ import math
 
 class TestKatas(unittest.TestCase):
     def test_add(self):
-        self.assertEqual(katas.add(2 , 3), 2 + 3)
+        self.assertEqual(katas.add(2, 3), 2 + 3)
 
     def test_multiply(self):
         self.assertEqual(katas.multiply(4, 6), 4 * 6)
